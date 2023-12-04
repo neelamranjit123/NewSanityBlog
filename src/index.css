@@ -1,0 +1,42 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Poppins:wght@100;200;500;600&family=Roboto&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ul {
+  list-style-type: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {  
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /*@apply bg-slate-200;*/
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Oswald', sans-serif;
+  color: #1f2937; /* text-slate-900 color */
+}
+
+/* Dark mode styles for heading elements */
+.dark h1, .dark h2, .dark h3, .dark h4, .dark h5 {
+  color: #ffffff; /* text-white color */
+}
+
+p {
+  color: White; /* text-slate-600 color */
+  line-height: 1.75; /* leading-loose value */
+  font-size: 1rem; /* text-sm size */
+}
+
+/* Dark mode styles for paragraph elements */
+.dark p {
+  color: #a0aec0; /* text-slate-400 color */
+}
